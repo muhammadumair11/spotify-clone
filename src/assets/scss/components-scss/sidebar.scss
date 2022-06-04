@@ -1,0 +1,44 @@
+.sidebar {
+    flex: 0.2;
+
+    background-color: black;
+    color: white;
+
+    height: 100vh;
+    min-width: 230px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    padding: 1rem;
+
+    &__logo {
+        height: 75px;
+
+        padding: 10px;
+        margin-right: auto;
+    }
+
+    hr {
+        border: 1px solid #282828;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        display: block;
+        font-size: .8rem;
+
+        padding: 5px;
+        margin: .5rem .8rem;
+    }
+
+    footer {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+    }
+}

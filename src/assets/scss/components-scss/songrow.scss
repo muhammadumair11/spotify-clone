@@ -1,0 +1,38 @@
+.songrow {
+    display: flex;
+    align-items: center;
+
+    color: white;
+
+    background-color: rgba(170, 170, 170, 0.049);
+
+    padding: 15px;
+    margin: 10px;
+
+    border-radius: 10px;
+
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        opacity: .8;
+        background-color: black;
+    }
+
+    &__info {
+        margin: 0 10px;
+        h1 {
+            font-size: 16px;
+        }
+        p {
+            font-size: 1rem;
+            color: #aaa;
+
+        }
+    }
+    &__album {
+        border-radius: 5px;
+        height: 50px;
+        width: 50px;
+    }
+}

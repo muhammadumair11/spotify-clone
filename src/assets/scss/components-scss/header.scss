@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .8rem 0;
+
+    &__left, &__right {
+        display: flex;
+        align-items: center;
+    }
+
+    &__left {
+        background-color: white;
+
+        color: grey;
+        
+        border-radius: 30px;
+        padding: .7rem 1rem;
+
+        input {
+            border: none;
+            width: 100%;
+            margin: 0 1rem;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+    }
+    &__right {
+        background-color: #000;
+        border-radius: 30px;
+        padding: 5px;
+        h4 {
+            overflow: hidden;
+            margin: 10px;
+        }
+    }
+}

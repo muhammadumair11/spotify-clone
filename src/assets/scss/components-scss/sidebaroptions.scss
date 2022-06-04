@@ -1,0 +1,23 @@
+.sidebaroptions {
+    color: #aaa;
+
+    padding: 1rem 2rem;
+
+    cursor: pointer;
+
+    transition: color ease-in-out 200ms;
+
+    display: flex;
+    align-items: center;
+
+    &__title {
+        padding: 0 1rem;
+    }
+    &__icon {
+        
+    }
+
+    &:hover {
+        color: white;
+    }
+}
